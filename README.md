@@ -2,17 +2,19 @@
 
 **Playtipy** is a *Spotify* terminal based client app written in *Python*.
 
+>**Note**: You're welcome to modify the code under the license agreement. I don't have a premium account and music playback requires premium privileges. Contact me if the script works correctly on Spotify premium.
+
 
 
 
 ## Setup
 
 Prerequisites:
->* Spotify account ;)
->* Python3
->* Pip
->* Spotipy
->* Configparser (to parse .cfg files; system variables can be used too from `sys` module)
+* Spotify account ;)
+* Python3
+* Pip
+* Spotipy
+* Configparser (to parse .cfg files; system variables can be used too from `sys` module)
 
 
 ### Python3 && Pip
