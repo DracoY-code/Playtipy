@@ -13,8 +13,8 @@ config.read('config.cfg')
 
 # Set auth variables
 username = config.get('SPOTIFY', 'USER_ID')
-scope = 'user-library-read user-read-private user-read-playback-state '
-        + 'user-modify-playback-state'
+scope = 'user-library-read user-read-private user-read-playback-state\
+ user-modify-playback-state'
 id = config.get('SPOTIFY', 'CLIENT_ID')
 secret = config.get('SPOTIFY', 'CLIENT_SECRET')
 
