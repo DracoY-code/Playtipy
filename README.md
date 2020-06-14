@@ -24,7 +24,7 @@ Python3 is needed to run the script. It comes with pip (package installer). On m
 
 Spotipy is installed using pip. It is an API for creating Spotify apps. For windows, open cmd and use
                       
-                                              pip install spotipy
+    pip install spotipy
                       
 You can also clone the repository (better do this): https://github.com/plamere/spotipy
 >Docs: https://spotipy.readthedocs.io/en/2.12.0/
@@ -34,7 +34,7 @@ You can also clone the repository (better do this): https://github.com/plamere/s
 
 Configparser parses a `.cfg` file. It can be installed using pip too.
                     
-                                             pip install configparser
+    pip install configparser
                     
 Now you are good to go!
 
