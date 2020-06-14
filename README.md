@@ -2,6 +2,9 @@
 
 **Playtipy** is a *Spotify* terminal based client app written in *Python*.
 
+
+
+
 ## Setup
 
 Prerequisites:
@@ -21,7 +24,7 @@ Python3 is needed to run the script. It comes with pip (package installer). On m
 
 Spotipy is installed using pip. It is an API for creating Spotify apps. For windows, open cmd and use
                       
->                                            pip install spotipy
+                                              pip install spotipy
                       
 You can also clone the repository (better do this): https://github.com/plamere/spotipy
 >Docs: https://spotipy.readthedocs.io/en/2.12.0/
@@ -31,9 +34,22 @@ You can also clone the repository (better do this): https://github.com/plamere/s
 
 Configparser parses a `.cfg` file. It can be installed using pip too.
                     
->                                           pip install configparser
+                                             pip install configparser
                     
 Now you are good to go!
+
+
+### Spotify Development && config.cfg
+
+1. Create a spotify account on https://spotify.com/ (if you already have, it's not for you!)
+2. Create a Spotify app at https://developer.spotify.com/dashboard/applications/.
+3. Add a `Redirect URI` in the settings of the app.
+4. If you are using configparser, add Client ID in `CLIENT_ID`.
+5. Add Client secret in `CLIENT_SECRET` (hush; it's a secret).
+6. Go to your account and copy `Profile Link`.
+7. Paste the link in `USER_ID` and extract the numbers in the end only. (Do not write the whole link)
+8. Save and you just need to authorize the app by running the script.
+
 
 
 
