@@ -1,1 +1,46 @@
 # Playtipy
+
+**Playtipy** is a *Spotify* terminal based client app written in *Python*.
+
+## Setup
+
+Prerequisites:
+>* Spotify account ;)
+>* Python3
+>* Pip
+>* Spotipy
+>* Configparser (to parse .cfg files; system variables can be used too from `sys` module)
+
+
+### Python3 && Pip
+
+Python3 is needed to run the script. It comes with pip (package installer). On most Linux systems, it is already installed. For other systems, install from https://www.python.org/downloads/
+
+
+### Spotipy
+
+Spotipy is installed using pip. It is an API for creating Spotify apps. For windows, open cmd and use
+                      
+>                                            pip install spotipy
+                      
+You can also clone the repository (better do this): https://github.com/plamere/spotipy
+>Docs: https://spotipy.readthedocs.io/en/2.12.0/
+
+
+### Configparser
+
+Configparser parses a `.cfg` file. It can be installed using pip too.
+                    
+>                                           pip install configparser
+                    
+Now you are good to go!
+
+
+
+## Dev Contacts
+
+Reviews are welcome. You can even contact me on following contacts.
+
+>* [GitHub](https://github.com/DracoY-code)
+>* [Reddit](https://reddit.com/user/Red_Death_08)
+>* [Discord](https://discord.gg/@DracoY#5089)
