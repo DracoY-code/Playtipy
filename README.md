@@ -4,6 +4,16 @@
 
 <img alt="headphones" src="https://api.time.com/wp-content/uploads/2018/04/listening-to-music-headphones.jpg?quality=85&w=1200&h=628&crop=1">
 
+## Performance :boxing_glove:
+
+* Display `current track playback` :musical_note:
+* Display `current playing device` :computer:
+* Change `music playback` on any device
+* Display `all user playlists` and their tracks
+* Display `all user saved tracks`
+* List all the `songs of an artist`
+* Display `Album & Track Arts` on the browser<img src="https://1000logos.net/wp-content/uploads/2017/08/Chrome-Logo.png" alt="chrome logo" width="35" align="center">
+
 ## Setup (╯°□°）╯︵ ┻━┻
 
 **Prerequisites:**
@@ -14,7 +24,9 @@
 
 > Install Python and pip from https://www.python.org/downloads/
 
-`$ pip install spotipy`
+```bash
+$ pip install spotipy	# preferred to install spotipy in a virtualenv
+```
 
 > Repo : https://github.com/plamere/spotipy
 >
