@@ -38,7 +38,7 @@ $ pip install spotipy	# preferred to install spotipy in a virtualenv
 2. Create a Spotify app at https://developer.spotify.com/dashboard/applications/.
 3. Add a `Redirect URI` in the settings of the app (say, https://google.com).
 4. Start a terminal session and export a few environment variables (with `export` command in `bash`).
-5. Add `CLIENT_ID`,`CLIENT_SECRET` (hush; it's a secret 😉) and `SPOTIPY_REDIRECT_URI`.
+5. Add `SPOTIPY_CLIENT_ID`,`SPOTIPY_CLIENT_SECRET` (hush; it's a secret 😉) and `SPOTIPY_REDIRECT_URI`.
 6. Go to your account and copy `Profile Link`.
 7. Get your user id by filtering the numbers in the link.
 8. Run the script with the user id as a terminal argument.
