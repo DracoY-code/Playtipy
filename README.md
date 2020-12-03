@@ -6,13 +6,14 @@
 
 ## Performance :boxing_glove:
 
-* Display `current track playback` :musical_note:
-* Display `current playing device` :computer:
-* Change `music playback` on any device
-* Display `all user playlists` and their tracks
-* Display `all user saved tracks`
-* List all the `songs of an artist`
-* Display `Album & Track Arts` on the browser<img src="https://1000logos.net/wp-content/uploads/2017/08/Chrome-Logo.png" alt="chrome logo" width="35" align="center">
+This is the `Playlist Generator` version of **Playtipy**.
+
+* Generate new playlists
+* Add tracks to playlists
+* Search tracks and add
+* Get total duration of playlist
+* List all tracks in a playlist
+* List all saved tracks
 
 ## Setup (╯°□°）╯︵ ┻━┻
 
@@ -25,7 +26,7 @@
 > Install Python and pip from https://www.python.org/downloads/
 
 ```bash
-$ pip install spotipy	# preferred to install spotipy in a virtualenv
+$ py[python3] -m pip install -r requirements.txt	# preferred to install spotipy in a virtualenv
 ```
 
 > Repo : https://github.com/plamere/spotipy
@@ -37,13 +38,22 @@ $ pip install spotipy	# preferred to install spotipy in a virtualenv
 1. Create a Spotify account on https://spotify.com/ (you have? Jump ahead ヾ(^▽^*))))
 2. Create a Spotify app at https://developer.spotify.com/dashboard/applications/.
 3. Add a `Redirect URI` in the settings of the app (say, https://google.com).
-4. Start a terminal session and export a few environment variables (with `export` command in `bash`).
-5. Add `SPOTIPY_CLIENT_ID`,`SPOTIPY_CLIENT_SECRET` (hush; it's a secret 😉) and `SPOTIPY_REDIRECT_URI`.
-6. Go to your account and copy `Profile Link`.
-7. Get your user id by filtering the numbers in the link.
-8. Run the script with the user id as a terminal argument.
-9. Authorize.
+4. Edit the .env with the `SPOTIPY_CLIENT_ID` and `SPOTIPY_CLIENT_SECRET`.
+5. Authorize.
 
-## Contacts
+### Connect with me:
 
-Reviews are welcome. You can reach me at my Reddit handle, [/u/Red_Death_08](https://reddit.com/user/Red_Death_08) <img alt="reddit logo" src="https://i.redd.it/rq36kl1xjxr01.png" width="35" align="center">.
+[<img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/github.svg" />][github]
+[<img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/reddit.svg" />][reddit]
+[<img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/discord.svg" />][discord]
+[<img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/twitch.svg" />][twitch]
+[<img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/facebook.svg" />][facebook]
+[<img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/instagram.svg" />][instagram]
+
+
+[github]: https://github.com/DracoY-code/
+[reddit]: https://reddit.com/user/Red_Death_08/
+[discord]: https://discord.com/channels/@me/756207322707001345
+[twitch]: https://www.twitch.tv/dracoy_08
+[facebook]: https://www.facebook.com/yashvardhan.singh.5686322/
+[instagram]: https://www.instagram.com/evildracoy/
