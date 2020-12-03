@@ -1,6 +1,0 @@
-.git
-venv
-.vscode
-spotipy
-.cache-*
-__pycache__
